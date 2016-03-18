@@ -1,4 +1,4 @@
-﻿"use strict()";
+﻿"use strict";
 
 function using () {
     var calc = new calculator();
