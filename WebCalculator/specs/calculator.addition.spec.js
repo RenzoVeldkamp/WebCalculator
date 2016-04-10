@@ -1,6 +1,8 @@
 ﻿
 /// <reference path="../js/Calculator.js" />
 
+"use strict";
+
 describe("addition tests", function () {
     var componentClassToTest;
 
@@ -25,7 +27,7 @@ describe("addition tests", function () {
     it("Add b to 1 should result in error thrown", function () {
         var addition = function () {
             componentClassToTest.add(b, 1); // b is undefined, so throw an exception
-        }
+        };
 
         expect(addition).toThrow();
     });
@@ -41,3 +43,4 @@ describe("addition tests", function () {
         componentClassToTest = null;
     });
 });
+

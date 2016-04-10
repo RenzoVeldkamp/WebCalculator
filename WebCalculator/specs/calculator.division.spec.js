@@ -1,6 +1,8 @@
 ﻿
 /// <reference path="../js/Calculator.js" />
 
+"use strict";
+
 describe("division tests", function () {
     var componentClassToTest;
 

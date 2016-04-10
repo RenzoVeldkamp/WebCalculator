@@ -64,6 +64,7 @@
     <Content Include="js\using.js" />
     <Content Include="Scripts\jasmine-html.js" />
     <Content Include="Scripts\jasmine.js" />
+    <None Include="Scripts\_references.js" />
     <Content Include="specs\calculator.addition.spec.js" />
     <Content Include="specs\calculator.division.spec.js" />
     <Content Include="test.html" />

@@ -1,7 +1,7 @@
 ﻿"use strict()";
 
 function using () {
-    var calc = new calculator();
+    var calc = new Calculator();
 
     var res1 = calc.add(1, 2);
 
