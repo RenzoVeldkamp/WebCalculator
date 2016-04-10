@@ -1,27 +1,28 @@
-﻿/// <reference path="../js/calculator.js" />
+﻿
+/// <reference path="../js/Calculator.js" />
 
 describe("addition tests", function () {
-
     var componentClassToTest;
+
     beforeEach(function () { // test setup
         if (!componentClassToTest) {
-            componentClassToTest = new calculator();
+            componentClassToTest = new Calculator();
         }
     });
 
     it("Add 1 to 2 should result in 3", function () {
         var addition = componentClassToTest.add(1, 2);
 
-        expect(addition).toBe(3);
+        expect(addition).toEqual(3);
     });
 
     it("Add 1 to -2 should result in -1", function () {
         var addition = componentClassToTest.add(1, -2);
 
-        expect(addition).toBe(-1);
+        expect(addition).toEqual(-1);
     });
 
-    it("Add b to 1 should result in exception thrown", function () {
+    it("Add b to 1 should result in error thrown", function () {
         var addition = function () {
             componentClassToTest.add(b, 1); // b is undefined, so throw an exception
         }
@@ -30,7 +31,7 @@ describe("addition tests", function () {
     });
 
     // this test will fail
-    it("Add 'b' to 1 should result in exception thrown", function () {
+    it("Add 'b' to 1 should result in error thrown", function () {
         var addition = componentClassToTest.add('b', 1);
 
         expect(addition).toThrow();

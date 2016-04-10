@@ -1,6 +1,7 @@
+
 "use strict()";
 
-function calculator() {
+function Calculator() {
     this.lastAdditionResult = 0;
 
     this.lastSubtractionResult = 0;

@@ -60,11 +60,12 @@
     <Content Include="css\jasmine.css" />
     <Content Include="DisplayCalc.html" />
     <Content Include="img\.gitignore" />
-    <Content Include="js\calculator.js" />
+    <Content Include="js\Calculator.js" />
     <Content Include="js\using.js" />
     <Content Include="Scripts\jasmine-html.js" />
     <Content Include="Scripts\jasmine.js" />
-    <Content Include="specs\calculator.spec.js" />
+    <Content Include="specs\calculator.addition.spec.js" />
+    <Content Include="specs\calculator.division.spec.js" />
     <Content Include="test.html" />
     <Content Include="Web.config" />
   </ItemGroup>
